@@ -1,10 +1,19 @@
+<!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 카카오톡 공유 시 표시되는 메타 태그 (오픈그래프) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="홍길동 ♡ 김영희의 모바일 청첩장">
+  <meta property="og:description" content="2026년 10월 24일 토요일 오후 2시, 저희 두 사람의 시작을 함께해 주세요.">
+  <meta property="og:image" content="https://taeng-do.github.io/Ester-Me_Wedding/AMU00001.jpg">
+  <meta property="og:url" content="https://taeng-do.github.io/Ester-Me_Wedding/">
+
+  <!-- 브라우저 탭 제목 -->
   <title>홍길동 ♡ 김영희의 모바일 청첩장</title>
 </head>
-
 <body>
 
   <!-- 화면 상단에 크게 보일 메인 제목 -->

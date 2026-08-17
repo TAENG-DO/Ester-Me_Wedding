@@ -15,6 +15,16 @@
     우리 결혼합니다
   </h1>
 
+  <p style="text-align: center; font-size: 20px; font-weight: bold; margin-top: 30px;">
+    홍길동 <span style="color: #e26b6b;">♡</span> 김영희
+  </p>
+
+  <!-- 2단계: 예식 일시 및 장소 (추가된 부분) -->
+  <p style="text-align: center; font-size: 16px; color: #555; line-height: 1.6;">
+    2026년 10월 24일 토요일 오후 2시<br>
+    OO웨딩홀 3층 그랜드홀
+  </p>
+
 </body>
 </html>
 

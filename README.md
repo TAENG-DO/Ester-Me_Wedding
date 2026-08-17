@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html lang="ko">
-  
 <head>
-  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>모바일 청첩장</title>
-    
+  홍길동 ♡ 김영희의 모바일 청첩장
 </head>
 
 <body>

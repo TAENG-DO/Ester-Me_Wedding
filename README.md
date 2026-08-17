@@ -3,14 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="홍길동 ♡ 김영희의 모바일 청첩장">
-  <meta property="og:description" content="2026년 10월 24일 토요일 오후 2시, 저희 두 사람의 시작을 함께해 주세요.">
-  <meta property="og:image" content="https://taeng-do.github.io/Ester-Me_Wedding/AMU00001.jpg">
-  <meta property="og:url" content="https://taeng-do.github.io/Ester-Me_Wedding/">
 
-  <title>홍길동 ♡ 김영희의 모바일 청첩장</title>
+  <title>민수 ♥ 지은 결혼합니다</title>
   <meta name="description" content="민수와 지은의 결혼식에 초대합니다.">
 
   <link rel="stylesheet" href="style.css">
@@ -18,69 +12,145 @@
 
 <body>
 
-  <!-- 화면 상단에 크게 보일 메인 제목 -->
-  <h1 style="text-align: center; margin-top: 50px;">
-    우리 결혼합니다
-  </h1>
-  
-  <div style="text-align: center; padding: 0 20px;">
-    <img src="AMU00001.jpg" alt="웨딩 메인 사진" style="max-width: 100%; height: auto; border-radius: 12px;">
-  </div>
-  
-  <p style="text-align: center; font-size: 20px; font-weight: bold; margin-top: 30px;">
-    홍길동 <span style="color: #e26b6b;">♡</span> 김영희
-  </p>
+  <!-- Hero -->
+  <section class="hero">
+    <img src="images/main.jpg" alt="신랑 신부 사진">
 
-  <!-- 2단계: 예식 일시 및 장소 (추가된 부분) -->
-  <p style="text-align: center; font-size: 16px; color: #555; line-height: 1.6;">
-    2026년 10월 24일 토요일 오후 2시<br>
-    OO웨딩홀 3층 그랜드홀
-  </p>
-  
-  <hr style="border: 0; height: 1px; background: #eee; margin: 40px 20px;">
+    <div class="hero-overlay">
+      <p class="small-title">WEDDING INVITATION</p>
 
-  <!-- 4단계: 초대의 글 (추가된 부분) -->
-  <div style="text-align: center; padding: 0 20px;">
-    <h3 style="color: #8a735c; font-size: 18px; margin-bottom: 20px;">INVITATION</h3>
-    <p style="font-size: 15px; color: #444; line-height: 1.8;">
-      서로가 마주보며 다져온 사랑을<br>
-      이제 한 곳을 바라보며 함께 걸어가려 합니다.<br><br>
-      저희의 뜻깊은 시작의 자리에<br>
-      소중한 분들을 모시고자 합니다.<br><br>
+      <h1>민수 <span>♥</span> 지은</h1>
+
+      <p class="date">
+        2026. 10. 24 SAT PM 12:00
+      </p>
+    </div>
+  </section>
+
+
+  <!-- 인사말 -->
+  <section class="section greeting">
+    <p class="section-label">INVITATION</p>
+
+    <h2>소중한 분들을<br>초대합니다.</h2>
+
+    <p class="text">
+      서로를 바라보며 웃고,<br>
+      서로의 손을 잡고 걸어온 두 사람이<br>
+      이제 하나의 길을 함께 걸어가려 합니다.<br><br>
+
+      저희의 새로운 시작을<br>
+      소중한 분들과 함께하고 싶습니다.<br><br>
+
       귀한 걸음으로 축복해 주시면<br>
-      더없는 기쁨으로 간직하겠습니다.
+      감사한 마음 오래도록 간직하겠습니다.
     </p>
-  </div>
-  
-  <hr style="border: 0; height: 1px; background: #eee; margin: 40px 20px;">
+  </section>
 
-  <div style="text-align: center;">
 
-  <h3 style="color: #8a735c; font-size: 16px; margin-bottom: 15px;">LOCATION</h3>
+  <!-- 신랑 신부 -->
+  <section class="section couple">
+    <p class="section-label">GROOM & BRIDE</p>
 
-  <p style="font-size: 15px; font-weight: bold; margin-bottom: 5px;">OO웨딩홀 3층 그랜드홀</p>
-  <p style="font-size: 13px; color: #666; margin-top: 0;">서울시 강남구 테헤란로 123 (역삼동 456)</p>
-  <p style="font-size: 13px; color: #666;">TEL. 02-123-4567</p>
+    <div class="names">
+      <div>
+        <h3>김민수</h3>
+        <p>신랑</p>
+      </div>
 
-  <div style="background: #fdfbf7; text-align: left; padding: 15px; border-radius: 8px; margin-top: 20px; font-size: 13px; line-height: 1.7;">
+      <span>♥</span>
 
-  <p style="margin: 0 0 8px 0;">
-          <strong style="color: #8a735c;">🚇 지하철 이용 시</strong><br>
-          2호선 OO역 3번 출구에서 도보 5분 (약 300m)
-        </p>
-        <p style="margin: 0 0 8px 0;">
-          <strong style="color: #8a735c;">🚌 버스 이용 시</strong><br>
-          간선: 146, 341, 360 번<br>
-          지선: 4318, 4319 번 ('OO역' 정류장 하차)
-        </p>
-        <p style="margin: 0;">
-          <strong style="color: #8a735c;">🚗 주차 안내</strong><br>
-          건물 내 지하 주차장 이용 (2시간 무료 주차 지원)
-          </p>
+      <div>
+        <h3>이 지은</h3>
+        <p>신부</p>
       </div>
     </div>
 
+    <p class="parents">
+      김철수 · 박영희의 아들 민수<br>
+      이영수 · 최미숙의 딸 지은
+    </p>
+  </section>
+
+
+  <!-- 사진 -->
+  <section class="section gallery">
+    <p class="section-label">OUR MOMENTS</p>
+
+    <h2>우리의 순간</h2>
+
+    <img src="AMU00001.jpg" alt="웨딩 사진">
+
+    <div class="gallery-grid">
+      <img src="AMU00001.jpg" alt="웨딩 사진">
+      <img src="AMU00001.jpg" alt="웨딩 사진">
+    </div>
+  </section>
+
+
+  <!-- 예식 정보 -->
+  <section class="section wedding-info">
+    <p class="section-label">WEDDING DAY</p>
+
+    <h2>예식 안내</h2>
+
+    <div class="info">
+      <p>
+        <strong>2026년 10월 24일 토요일</strong>
+      </p>
+
+      <p>오후 12시</p>
+
+      <hr>
+
+      <p>
+        <strong>더 행복한 웨딩홀</strong>
+      </p>
+
+      <p>서울특별시 강남구 테헤란로 123</p>
+    </div>
+
+    <div class="buttons">
+      <a href="https://map.naver.com/" target="_blank">
+        네이버 지도
+      </a>
+
+      <a href="https://map.kakao.com/" target="_blank">
+        카카오맵
+      </a>
+    </div>
+  </section>
+
+
+  <!-- 연락하기 -->
+  <section class="section contact">
+    <p class="section-label">CONTACT</p>
+
+    <h2>마음 전하실 곳</h2>
+
+    <div class="contact-card">
+      <div>
+        <span>신랑</span>
+        <strong>김민수</strong>
+        <a href="tel:01012345678">전화하기</a>
+      </div>
+
+      <div>
+        <span>신부</span>
+        <strong>이지은</strong>
+        <a href="tel:01087654321">전화하기</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>민수 ♥ 지은</p>
+    <span>2026. 10. 24</span>
+  </footer>
+
+
+  <script src="script.js"></script>
 </body>
-
 </html>
-

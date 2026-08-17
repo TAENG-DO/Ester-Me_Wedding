@@ -14,7 +14,11 @@
   <h1 style="text-align: center; margin-top: 50px;">
     우리 결혼합니다
   </h1>
-
+  
+  <div style="text-align: center; padding: 0 20px;">
+    <img src="AMU00001.jpg" alt="웨딩 메인 사진" style="max-width: 100%; height: auto; border-radius: 12px;">
+  </div>
+  
   <p style="text-align: center; font-size: 20px; font-weight: bold; margin-top: 30px;">
     홍길동 <span style="color: #e26b6b;">♡</span> 김영희
   </p>

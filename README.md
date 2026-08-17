@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="ko">
   
 <head>
@@ -73,8 +73,6 @@
       </div>
     </div>
 
-  </div>
- 
 </body>
 
 </html>

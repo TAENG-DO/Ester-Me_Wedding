@@ -43,6 +43,33 @@
       더없는 기쁨으로 간직하겠습니다.
     </p>
   </div>
+
+  <!-- 5단계: 오시는 길 (추가된 부분) -->
+  <div style="text-align: center; padding: 0 20px;">
+    <h3 style="color: #8a735c; font-size: 18px; margin-bottom: 20px;">LOCATION</h3>
+    
+    <!-- 웨딩홀 이름 및 주소 -->
+    <p style="font-size: 16px; font-weight: bold; margin-bottom: 5px;">OO웨딩홀 3층 그랜드홀</p>
+    <p style="font-size: 14px; color: #666; margin-top: 0;">서울시 강남구 테헤란로 123 (역삼동 456)</p>
+    <p style="font-size: 14px; color: #666;">TEL. 02-123-4567</p>
+
+    <!-- 상세 교통편 안내 상자 -->
+    <div style="background: #fdfbf7; text-align: left; padding: 20px; border-radius: 8px; margin-top: 25px; font-size: 14px; line-height: 1.8;">
+      <p style="margin: 0 0 10px 0;">
+        <strong style="color: #8a735c;">🚇 지하철 이용 시</strong><br>
+        2호선 OO역 3번 출구에서 도보 5분 (약 300m)
+      </p>
+      <p style="margin: 0 0 10px 0;">
+        <strong style="color: #8a735c;">🚌 버스 이용 시</strong><br>
+        간선: 146, 341, 360 번<br>
+        지선: 4318, 4319 번 ('OO역' 정류장 하차)
+      </p>
+      <p style="margin: 0;">
+        <strong style="color: #8a735c;">🚗 주차 안내</strong><br>
+        건물 내 지하 주차장 이용 (2시간 무료 주차 지원)
+      </p>
+    </div>
+  </div>
   
 </body>
 </html>

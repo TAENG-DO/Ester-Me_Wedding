@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500&family=Noto+Sans+KR:wght@300;400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f8f6f3;
+  color: #4a4642;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* HERO */
+
+.hero {
+  position: relative;
+  height: 100vh;
+  min-height: 650px;
+  overflow: hidden;
+}
+
+.hero > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  padding: 60px 20px;
+
+  color: white;
+  text-align: center;
+
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0,0,0,0.05),
+      rgba(0,0,0,0.55)
+    );
+}
+
+.small-title {
+  margin-bottom: 10px;
+  font-size: 11px;
+  letter-spacing: 4px;
+}
+
+.hero h1 {
+  margin: 0;
+  font-family: "Noto Serif KR", serif;
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.hero h1 span {
+  margin: 0 10px;
+  color: #e8a8a8;
+}
+
+.date {
+  margin-top: 12px;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+
+/* SECTION */
+
+.section {
+  padding: 90px 25px;
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-label {
+  margin-bottom: 20px;
+  color: #b89c8d;
+  font-size: 10px;
+  letter-spacing: 4px;
+}
+
+.section h2 {
+  margin: 0 0 35px;
+  font-family: "Noto Serif KR", serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+
+/* GREETING */
+
+.greeting {
+  background: #f8f6f3;
+}
+
+.greeting .text {
+  margin: 0;
+  color: #77716c;
+  font-size: 14px;
+}
+
+
+/* COUPLE */
+
+.couple {
+  background: #fff;
+}
+
+.names {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+
+.names h3 {
+  margin: 0;
+  font-family: "Noto Serif KR", serif;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.names p {
+  margin: 5px 0 0;
+  color: #999;
+  font-size: 11px;
+}
+
+.names > span {
+  color: #d9a3a3;
+}
+
+.parents {
+  margin-top: 35px;
+  color: #888;
+  font-size: 12px;
+}
+
+
+/* GALLERY */
+
+.gallery img {
+  border-radius: 2px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+
+/* WEDDING INFO */
+
+.wedding-info {
+  background: #f1ece7;
+}
+
+.info {
+  padding: 30px 15px;
+  font-size: 13px;
+}
+
+.info strong {
+  font-weight: 500;
+}
+
+.info hr {
+  width: 30px;
+  margin: 25px auto;
+  border: 0;
+  border-top: 1px solid #cfc5bd;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.buttons a {
+  flex: 1;
+  padding: 13px;
+  border: 1px solid #d1c5bc;
+  background: rgba(255,255,255,.6);
+  font-size: 12px;
+}
+
+
+/* CONTACT */
+
+.contact {
+  background: #fff;
+}
+
+.contact-card {
+  display: grid;
+  gap: 1px;
+  background: #eee;
+  text-align: left;
+}
+
+.contact-card > div {
+  display: grid;
+  grid-template-columns: 45px 1fr auto;
+  align-items: center;
+  padding: 18px;
+  background: white;
+}
+
+.contact-card span {
+  color: #999;
+  font-size: 11px;
+}
+
+.contact-card strong {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.contact-card a {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  font-size: 10px;
+}
+
+
+/* FOOTER */
+
+footer {
+  padding: 50px 20px;
+  background: #3f3a36;
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-family: "Noto Serif KR", serif;
+}
+
+footer span {
+  display: block;
+  margin-top: 5px;
+  color: #aaa;
+  font-size: 10px;
+}
+
+
+/* MOBILE */
+
+@media (min-width: 700px) {
+  body {
+    background: #ddd;
+  }
+
+  .hero,
+  .section,
+  footer {
+    max-width: 650px;
+    margin: auto;
+  }
+
+  .hero {
+    background: white;
+  }
+}

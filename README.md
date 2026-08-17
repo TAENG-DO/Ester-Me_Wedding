@@ -28,7 +28,22 @@
     2026년 10월 24일 토요일 오후 2시<br>
     OO웨딩홀 3층 그랜드홀
   </p>
+  
+  <hr style="border: 0; height: 1px; background: #eee; margin: 40px 20px;">
 
+  <!-- 4단계: 초대의 글 (추가된 부분) -->
+  <div style="text-align: center; padding: 0 20px;">
+    <h3 style="color: #8a735c; font-size: 18px; margin-bottom: 20px;">INVITATION</h3>
+    <p style="font-size: 15px; color: #444; line-height: 1.8;">
+      서로가 마주보며 다져온 사랑을<br>
+      이제 한 곳을 바라보며 함께 걸어가려 합니다.<br><br>
+      저희의 뜻깊은 시작의 자리에<br>
+      소중한 분들을 모시고자 합니다.<br><br>
+      귀한 걸음으로 축복해 주시면<br>
+      더없는 기쁨으로 간직하겠습니다.
+    </p>
+  </div>
+  
 </body>
 </html>
 
